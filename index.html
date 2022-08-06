@@ -11,7 +11,7 @@
 
     <body>
         <div class="container-fluid" id="contenedorGeneral"
-        <div class="row" id="Titulo">
+        < class="row" id="Titulo">
             <div class="col-7">
                 <header>
                     <h2>CENTRO VETERINARIA</h2>
@@ -23,7 +23,7 @@
         <div class="col-5">
             <img src="img/mascota.jpg" alt="catdog" id="imgCatdog"
         </div>
-        <div 
+        <boy 
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Navbar scroll</a>
@@ -66,7 +66,7 @@
                     <section>
                         <article>
                             <h4>Cuidados y educación para su perro</h4>
-                            <p><img src="img/perrito.jpg" alt="catdog" id="imgfoto"
+                            <p><img src="img/perrito.jpg" alt="catdog" id="imgfoto">
                                 Tener a un perro implica una gran responsabilidad.
                                 a demás de facilitarle las cosas básicas como son la comida,
                                 el veterinario o hacer ejercicio, hay otros consejos que son para que 
@@ -76,3 +76,50 @@
                     </section>
                 </div>
             </div>
+            
+            <div class="row col-5" id="formulario">
+                <form id="form" method="post" action="pagina-destino,php">
+
+                    <div class="row" id="formTitulo">
+                        <h1>Solicitar Cita Medica</h1><br>
+                    </div>
+                        <label>Mascota</label>
+                        <input type="text" id="name" name="nombre" required="" placeholder="Nombre" />
+
+                        <label for="numtarjeta">Edad</label>
+                        <input id="numtarjeta" name="numtarjeta" type="number" placeholder="en meses" required>
+
+                        <label>Raza</label>
+                        <input type="text" id="name" name="nombre" required="" placeholder="Nombre" />   
+                            
+                        <label>Fecha</label>
+                        <input type="date"name="fecha" id="fecha" required="" placeholder="Fecha" />
+
+                        <label for="numtarjeta">Hora</label>
+                        <input type="time" name="hora" min="18:00" max="21:00" step="3600" />
+
+                        <label>Amo</label>
+                        <input type="text" id="name" name="nombre" required="" placeholder="Nombre" />
+
+                        <button type="submit" name="enviar" id="boton">Validar Cita</button>
+                </form>
+            </div>
+
+            <div class="row">
+                <footer id="piedepagina">
+                    <p>Contactos</p>
+                    <p>Linea gratuita 018000-00001</p>
+                    <p>Correo : <a href="mailto:hege@example.com">preguntas@caninosyfelinos.com</a></p>
+                </footer>
+            </div>
+            <script>
+                (function() {
+                    alert("Registro Exitoso");
+                }
+
+                var boton = document.getElementById('boton');
+                boton.addEventListener("click", registro)
+                }())
+            </script>
+            </boy>
+        </html>
