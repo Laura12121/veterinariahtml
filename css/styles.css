@@ -152,3 +152,46 @@ hr.new5{
     color: rgb(14, 15, 15);
     text-align:ceter;
 }
+@media only screen and (max-width:600px){
+    #contenedorGeneral{
+        width: 100%;
+        }
+        #imgCatdog{
+        width: 80%;
+        }
+    
+        h1{
+            font-family: 'Kanit', Cooper Black; 
+            font-size: 2.2em;
+            margin: 0;
+            text-align: center; 
+        }
+        
+        h2{
+            font-family: 'Kanit', Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+            margin: 0;
+            text-align: center;
+        }
+        
+        h3{
+            font-family: 'Kanit', Cooper Black;
+            text-indent: 3.5em;
+            font-size: 2.2em;
+        }
+        .vl {
+            height: 0px;
+        }
+        #imgFoto{
+            width: 40%;
+            height: 60%;
+        }
+        
+    #contenido{
+        margin: 0%;
+    }
+    
+    #formulario{
+        width: 100%;
+        margin: 0%;
+}
